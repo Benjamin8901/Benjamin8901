@@ -29,7 +29,7 @@ search.addEventListener('click', ()=>{
   language.innerHTML = Object.values(countryData.languages).toString().split(',').join(',')
   })
   .catch(() => {
-    alert('El pais no esta en la lista o no esta en ingles');
+       alert('Por favor de esperar unos segundos mas.\nEn caso de que no aparezca el pais este no esta en la lista o no esta escrito en ingles');
 });
 }
 )
